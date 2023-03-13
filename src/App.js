@@ -1,0 +1,13 @@
+import Favicon from "react-favicon";
+import Server from "./components/homepage/Server";
+function App() {
+  let faviicon="https://lh3.googleusercontent.com/MdI3CPqYy0GvqdrU9IlQ9UCC3TNJ_LOmlD4KNqJNApUQfpgGN8GYMw6asJZDY2q_KmgMl81m-d2icSRrxcB6Y-oo7NI1vIt8wiu_FrFE_z4uMxAlX_jGLhX9BR7D1plsxqqgLnqe-BPhafmq5q8MeezBUM5cZeJM1lVqmRbVKoPupWov6jastgdBFGRYbVVX0r_p9zHJOC64ZAv0zkkNLN53JpEFp043ewZ311Y59MvkSko9TBNYttvwGTJVV05ueyhvy8lvEsfkLoIY7bvZBMBBxR01TkuOyAha7untDlJP9ibs_jxzM65xLg939M3plso7eMfKJ1UvyQz8hdCHZXJ3r3I08NpLAuL_o1Sp_A4Le0aWO_u818ROXHU0vCBX3qQb3ICn7PG2Ke62G_S93EMp3UOiEn5guRqT5Li6O6cry7NCBGEePU3pyVwjPiDcvXUOUwsSmrzFfM6qqIsVVxtuT9vQQ6vtnSwBRTSvWn1LN0PuWcXiHOh3ewZJKlqOOcmhBw1smePL7iDpa31KwDyFz2L2lqeZ0PFktWOvGfCX7XFDmpqbnx2WApX9XjfkK3esFv3DFxSlPQxxUWogXehYvOz1LUcEsy6jRD_Vg0DxALuhBCWU3Kl8ftEDP2WGVtku7c_QvVHm_8CCpn0sOY1EAK6LDhavlcvUVapjbMxUKlI3Sb-nRQYKQOQxA9DINLzHRn9r5k6P2pgVJU0C31tDfJYNW-CDfclMNwDfGeJYn3vOzKJ2pbrF0UrQ44TSxAiBGOLLTWfYA6cYgQvPMfzzEawC6PEIgn7IChGoOkzFXEeUev1XvFcdcRqJRF_F-peVQix9cxpa7nAnjLrhAjXGz9PiQUneWpd1ESrprhF69dODXQ8yHzSBIvhbYwyPR8xCWe1JN3OAZWjLv1POZTm3fW849FEfYLijAmCEiup2HSG56sWHRUvHqOZScN07pzPqeIcy8chpRljp=w224-h220-no?authuser=0";
+  return (
+    <>
+      <Favicon url={faviicon}/>
+      <Server/>
+    </>
+  );
+}
+
+export default App;
